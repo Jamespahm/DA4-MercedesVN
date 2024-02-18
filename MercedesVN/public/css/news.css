@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: "MBCorpoSTitle-Regular-Web","DaimlerCS-Regular",Helvetica,Arial,sans-serif;
+}
+#bannerr{
+    background: url('/img/banner/banner-news-page-1.webp') top center / cover no-repeat;
+    padding-top: 30%;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.4); */
+}
+
+#content{
+    background-color: black;
+}
+
+.news{
+    width: 88%;
+    height: auto;
+    padding:50px 0 100px;
+    margin: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+.news-title--top-line{
+    width: 60px;
+    margin-bottom: 40px;
+}
+.news-title{
+    color: #fff;
+    padding: 40px 0 15px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.news--img{
+    width: 55%;
+    height: auto;
+    float: left;
+}
+
+
+.news-content{
+    width: 45%;
+    text-align: justify;
+    line-height: 1.375;
+    font-size: 15px;
+    color: #fff;
+    float: left;
+}
